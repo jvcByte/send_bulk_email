@@ -163,7 +163,7 @@ class TemplateService:
         
         <div class="content">
             <div class="greeting">
-                <p>Dear Participant,</p>
+                <p>Dear {{username}},</p>
             </div>
             
             <p>Your account has been successfully created. Please find your login credentials below to access the recording platform.</p>
@@ -188,16 +188,16 @@ class TemplateService:
             </div>
             
             <div class="notice">
-                <div class="notice-title">Security Notice</div>
-                <p class="notice-text">For your security, please change your password immediately after your first login. Keep your credentials confidential and do not share them with anyone.</p>
+                <div class="notice-title">Security Tip</div>
+                <p class="notice-text">For enhanced security, we recommend changing your password after your first login.</p>
             </div>
             
-            <p>If you encounter any issues accessing the platform or have questions, please contact the coding mentors for assistance.</p>
+            <p>If you encounter any issues accessing the platform or have questions, please contact any of the coding mentors for assistance.</p>
         </div>
         
         <div class="footer">
             <p class="footer-text">Best regards,</p>
-            <p class="signature">DBI Coding Mentors</p>
+            <p class="signature">Coding Mentors @ Abuja</p>
             <p class="footer-text" style="margin-top: 20px; font-size: 12px;">This is an automated message. Please do not reply to this email.</p>
         </div>
     </div>
